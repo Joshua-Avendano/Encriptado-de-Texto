@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/Desafío/imagenes/logo.png">
+        <h1 class="encabezado">Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+            <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Ingrese el texto" ></textarea>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h6 class="titulomensaje">Mensaje</h6>
+            </div>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div class="botones">
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
+<footer>
+    <p>&copy; 2024 Mi Aplicación de Encriptado. Todos los derechos reservados.</p>
+    <p>Avendaño Duarte Joshua</p>
+    <img class="alu" src="/Desafío/imagenes/alura.jpeg" alt="logo de alura">
+</footer>
+</body>
+
+</html>
